@@ -197,7 +197,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://downloads.sourceforge.net/djvu/djvulibre-3.5.28.tar.gz",
+                    "url": "https://downloads.sourceforge.net/djvu/djvulibre-3.5.28.tar.gz",
                     "sha256": "fcd009ea7654fde5a83600eb80757bd3a76998e47d13c66b54c8db849f8f2edc",
                     "x-checker-data": {
                         "type": "anitya",
@@ -327,8 +327,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://poppler.freedesktop.org/poppler-22.02.0.tar.xz",
-                    "sha256": "e390c8b806f6c9f0e35c8462033e0a738bb2460ebd660bdb8b6dca01556193e1",
+                    "url": "https://poppler.freedesktop.org/poppler-22.03.0.tar.xz",
+                    "sha256": "728c78ba94d75a55f6b6355d4fbdaa6f49934d9616be58e5e679a9cfd0980e1e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 3686,
@@ -369,8 +369,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.88/portingAids/kjs-5.88.0.tar.xz",
-                    "sha256": "ac1094b7ca3a6a88e09428a4c4d09c8af7f487dc2c3c82440abf59867bd87b12",
+                    "url": "https://download.kde.org/stable/frameworks/5.92/portingAids/kjs-5.92.0.tar.xz",
+                    "sha256": "04072d527501c92f1e0144e9dcc114e108bfb5a2b50bed8a9b037474aaa6f118",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -390,8 +390,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.88/portingAids/khtml-5.88.0.tar.xz",
-                    "sha256": "5e5d0b57a7300ae48a6137e2ec8e9942959eb7e4eec9d936cc06961733e73fae",
+                    "url": "https://download.kde.org/stable/frameworks/5.92/portingAids/khtml-5.92.0.tar.xz",
+                    "sha256": "91a1d79ea382a25614810cd59f800f0a34c6e86c69ef6d0a08d2655f2a93171a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -411,8 +411,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.2/src/libkexiv2-21.12.2.tar.xz",
-                    "sha256": "073d9db302734c70ce05f189dcabe14dfe9abe05d9dc89263d580c2af80d37c8",
+                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/libkexiv2-21.12.3.tar.xz",
+                    "sha256": "491496b277fb3bebf17b1f2488fc8e905e08f888415edc4dcd26039e53335564",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -432,8 +432,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.2/src/kdegraphics-mobipocket-21.12.2.tar.xz",
-                    "sha256": "8499d212ebad507b9913af221a76611963c1dd001b291bd93327285c0ff9717d",
+                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/kdegraphics-mobipocket-21.12.3.tar.xz",
+                    "sha256": "58c4dc769972a1472a9cfe1d134a77a12e9a78357829247d247aa73bc8e83124",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -444,25 +444,25 @@
             ]
         },
         {
-        "name": "cups",
-        "buildsystem": "simple",
-        "build-commands": [
-            "./configure --disable-systemd --enable-threads --enable-gnutls",
-            "gcc berkeley/lpr.c -o /app/bin/lpr -I . -lcups"
-        ],
-        "sources": [
-            {
-                "type": "archive",
-                "url": "https://github.com/OpenPrinting/cups/releases/download/v2.4.0/cups-2.4.0-source.tar.gz",
-                "sha256": "9abecec128ca6847c5bb2d3e3d30c87b782c0697b9acf284d16fa38f80a3a6de",
-                "x-checker-data": {
-                    "type": "anitya",
-                    "project-id": 380,
-                    "stable-only": true,
-                    "url-template": "https://github.com/OpenPrinting/cups/releases/download/v$version/cups-$version-source.tar.gz"
+            "name": "cups",
+            "buildsystem": "simple",
+            "build-commands": [
+                "./configure --disable-systemd --enable-threads --enable-gnutls",
+                "gcc berkeley/lpr.c -o /app/bin/lpr -I . -lcups"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/OpenPrinting/cups/releases/download/v2.4.1/cups-2.4.1-source.tar.gz",
+                    "sha256": "c7339f75f8d4f2dec50c673341a45fc06b6885bb6d4366d6bf59a4e6c10ae178",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 380,
+                        "stable-only": true,
+                        "url-template": "https://github.com/OpenPrinting/cups/releases/download/v$version/cups-$version-source.tar.gz"
+                    }
                 }
-            }
-        ]
+            ]
         },
         {
             "name": "okular",
@@ -475,8 +475,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.2/src/okular-21.12.2.tar.xz",
-                    "sha256": "69c39e8b5f9a1c24bfe57dc27a4073d3a72a3cbdd548e00e83fa8d33a1e70bcc",
+                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/okular-21.12.3.tar.xz",
+                    "sha256": "63314864b1975b16ffadcce7c19b2ee4ae5477739639cfac165d4eac71fb9914",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -492,8 +492,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.2/src/konsole-21.12.2.tar.xz",
-                    "sha256": "aa3bbfe76c0c0a8891bf8e7bc88267dbdea3368651c6b2f5316434a618fcfe01",
+                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/konsole-21.12.3.tar.xz",
+                    "sha256": "1a9727a1ab878bce3419a3fa9cedf41cf0ed778dc7d9ce5a66314755bba8581b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
