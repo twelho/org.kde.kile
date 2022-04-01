@@ -504,6 +504,28 @@
             ]
         },
         {
+            "name": "imagemagick",
+            "cleanup": [
+                "/etc",
+                "/share",
+                "/lib",
+                "/bin/{animate,compare,composite,conjure,display,identify,import,magick,magick-script,mogrify,montage,stream}"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.imagemagick.org/ImageMagick/download/releases/ImageMagick-7.1.0-29.tar.gz",
+                    "sha256": "044001e39e8409686bc5ba156fa85b71f955cae23e7a13d05120bdebcc400eb3",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 1372,
+                        "stable-only": true,
+                        "url-template": "hhttps://download.imagemagick.org/ImageMagick/download/releases/ImageMagick-$version.tar.gz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "kile",
             "buildsystem": "cmake-ninja",
             "sources": [
