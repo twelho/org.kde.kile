@@ -520,7 +520,7 @@
                         "type": "anitya",
                         "project-id": 1372,
                         "stable-only": true,
-                        "url-template": "hhttps://download.imagemagick.org/ImageMagick/download/releases/ImageMagick-$version.tar.gz"
+                        "url-template": "https://download.imagemagick.org/ImageMagick/download/releases/ImageMagick-$version.tar.gz"
                     }
                 }
             ]
