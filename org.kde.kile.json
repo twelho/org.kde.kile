@@ -411,8 +411,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/libkexiv2-22.04.3.tar.xz",
-                    "sha256": "29d0bec9eda4636252914e35001362f3f6ffaeb4be0f0b43455316e893f9835c",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/libkexiv2-22.08.0.tar.xz",
+                    "sha256": "f94da759b343dfd5b202bc06b4ab74982f898567e4f87b24edceb992feb9622a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -432,8 +432,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/kdegraphics-mobipocket-22.04.3.tar.xz",
-                    "sha256": "521fae7172263f888ddb98f15c69d9b417a9d477e66c0782d31d132684e2d98b",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/kdegraphics-mobipocket-22.08.0.tar.xz",
+                    "sha256": "e97201c31eda7ee7dcf3d7596163c5ee0648e62374b3134da3d4d1750dc8d719",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -475,8 +475,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/okular-22.04.3.tar.xz",
-                    "sha256": "7c563572e31da5c1ae23b0333c31980ca115bd859d0e181e09dd3f09f3e3570e",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/okular-22.08.0.tar.xz",
+                    "sha256": "72c0385cfa489043e9ac0318961fee1ee3360684aaf56b6693639d514df45fb7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -492,8 +492,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/konsole-22.04.3.tar.xz",
-                    "sha256": "148f65891318e6a6f31793c9535e2bf32068b1cae8c5026e54f360bea484d9a7",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/konsole-22.08.0.tar.xz",
+                    "sha256": "bbcc5ce567dbffaea6722fe43682b68f2b54bb6c6a2b6eeb2f4b86809d3551d6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -517,8 +517,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://imagemagick.org/archive/releases/ImageMagick-7.1.0-45.tar.gz",
-                    "sha256": "ceae23f41d2508716ce14d2181f4cea758727d30620b32bcac62fc525bd81d48",
+                    "url": "https://imagemagick.org/archive/releases/ImageMagick-7.1.0-46.tar.gz",
+                    "sha256": "e361bb4cc206f796949f8b6359f6321cb12c793f6389c7f7184a12efca3352c1",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1372,
