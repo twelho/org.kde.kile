@@ -411,8 +411,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/libkexiv2-22.08.0.tar.xz",
-                    "sha256": "f94da759b343dfd5b202bc06b4ab74982f898567e4f87b24edceb992feb9622a",
+                    "url": "https://download.kde.org/stable/release-service/22.08.1/src/libkexiv2-22.08.1.tar.xz",
+                    "sha256": "69330259f09cc0199776cadef646a073cb075f9de97e9db15e8bec7bd3f19747",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -432,8 +432,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/kdegraphics-mobipocket-22.08.0.tar.xz",
-                    "sha256": "e97201c31eda7ee7dcf3d7596163c5ee0648e62374b3134da3d4d1750dc8d719",
+                    "url": "https://download.kde.org/stable/release-service/22.08.1/src/kdegraphics-mobipocket-22.08.1.tar.xz",
+                    "sha256": "d618f36b40272b688366200a2e123c59e9964a3646127641a0150e84ebfbbbcf",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -475,8 +475,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/okular-22.08.0.tar.xz",
-                    "sha256": "72c0385cfa489043e9ac0318961fee1ee3360684aaf56b6693639d514df45fb7",
+                    "url": "https://download.kde.org/stable/release-service/22.08.1/src/okular-22.08.1.tar.xz",
+                    "sha256": "967e5dd1bfcebffa46eb93d97509dde5928cc9e75cc823aabf396ab3b49b2839",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -492,8 +492,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/konsole-22.08.0.tar.xz",
-                    "sha256": "bbcc5ce567dbffaea6722fe43682b68f2b54bb6c6a2b6eeb2f4b86809d3551d6",
+                    "url": "https://download.kde.org/stable/release-service/22.08.1/src/konsole-22.08.1.tar.xz",
+                    "sha256": "f124954979cdc58b44b70a3500eaecef83421a652cae73f8bef961184fdc2101",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
