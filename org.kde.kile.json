@@ -111,8 +111,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.80.0/source/boost_1_80_0.tar.bz2",
-                    "sha256": "1e19565d82e43bc59209a168f5ac899d3ba471d55c7610c677d4ccf2c9c500c0",
+                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.81.0/source/boost_1_81_0.tar.bz2",
+                    "sha256": "71feeed900fbccca04a3b4f2f84a7c217186f28a940ed8b7ed4725986baf99fa",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6845,
@@ -327,8 +327,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://poppler.freedesktop.org/poppler-22.11.0.tar.xz",
-                    "sha256": "093ba9844ed774285517361c15e21a31ba4df278a499263d4403cca74f2da828",
+                    "url": "https://poppler.freedesktop.org/poppler-22.12.0.tar.xz",
+                    "sha256": "d9aa9cacdfbd0f8e98fc2b3bb008e645597ed480685757c3e7bc74b4278d15c0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 3686,
@@ -517,8 +517,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://imagemagick.org/archive/releases/ImageMagick-7.1.0-52.tar.gz",
-                    "sha256": "a41f0d05053b48b57800a1ac2aa21cec1db0077514d011b5c324f8ec2e39ae94",
+                    "url": "https://imagemagick.org/archive/releases/ImageMagick-7.1.0-54.tar.gz",
+                    "sha256": "ae98a3a70796f1c3f831193790b08f2768893875aa677c23b0a35fee8dc0cc37",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1372,
