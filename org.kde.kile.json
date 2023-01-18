@@ -12,6 +12,7 @@
         "--socket=wayland",
         "--device=dri",
         "--filesystem=home",
+        "--talk-name=org.freedesktop.Flatpak",
         "--env=PATH=/app/bin:/app/texlive/bin:/app/texlive/bin/x86_64-linux:/app/texlive/bin/aarch64-linux:/usr/bin/"
     ],
     "separate-locales": false,
