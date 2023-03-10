@@ -518,8 +518,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://imagemagick.org/archive/releases/ImageMagick-7.1.1-0.tar.gz",
-                    "sha256": "31577a32f566103456f8968df2598e9ef05411460da577e4710058b79afe0d66",
+                    "url": "https://imagemagick.org/archive/releases/ImageMagick-7.1.1-2.tar.gz",
+                    "sha256": "c1de09061e8bdfd37905e7c8954b0094380f670b48508353785aa31d32270968",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1372,
