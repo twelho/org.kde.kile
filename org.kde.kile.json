@@ -412,8 +412,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.3/src/libkexiv2-22.12.3.tar.xz",
-                    "sha256": "6f9d6e28bb6e6dc73cbbbb0b0f788b6ada328616568a023b286126ce67332a94",
+                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/libkexiv2-23.04.0.tar.xz",
+                    "sha256": "18d3eed06df9d1e31d8434ed9887e305aba176d0856e19a8cd3bdb555b80d391",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -433,8 +433,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.3/src/kdegraphics-mobipocket-22.12.3.tar.xz",
-                    "sha256": "4f4023d639b12703c2992861ffd408fac2366adfae8b0b1f0f497b36a5f8a8f1",
+                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/kdegraphics-mobipocket-23.04.0.tar.xz",
+                    "sha256": "257839a383614098fc60031d689145bf1d99844c835aacbc08bf34d21542b0c2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -476,8 +476,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.3/src/okular-22.12.3.tar.xz",
-                    "sha256": "01ef28755993ce0d5acd22a8a25d80497d813ffc399c87bb0bf76ee32a46da02",
+                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/okular-23.04.0.tar.xz",
+                    "sha256": "6c0dff299abf86df88d86e7d31d1dac2633775a2cca801ab3ca5104fafbcd40c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -493,8 +493,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.3/src/konsole-22.12.3.tar.xz",
-                    "sha256": "59a9bc95446ecaeba20c04b324ce55934e9ea042ab9dbe75eb76d02b6cabf86f",
+                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/konsole-23.04.0.tar.xz",
+                    "sha256": "21ce6f3cbc9add1a33c27b8a32aa5f71001c106e7d2566d2dec7a23d8eb7a59c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
