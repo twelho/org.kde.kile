@@ -328,8 +328,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://poppler.freedesktop.org/poppler-23.05.0.tar.xz",
-                    "sha256": "38294de7149ebe458191a6e6d0e2837da7dba8683900a635252f6d0ee235f990",
+                    "url": "https://poppler.freedesktop.org/poppler-23.06.0.tar.xz",
+                    "sha256": "d38c6b2f31c8f6f3727fb60a011a0e6c567ebf56ef1ccad36263ca9ed6448a65",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 3686,
@@ -448,8 +448,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/OpenPrinting/cups/releases/download/v2.4.3/cups-2.4.3-source.tar.gz",
-                    "sha256": "9ddeb98f20e9c9f4af121c2b1053e7420b79bd6770f1aded2866303d27526f6f",
+                    "url": "https://github.com/OpenPrinting/cups/releases/download/v2.4.4/cups-2.4.4-source.tar.gz",
+                    "sha256": "209259e8fe8df9112af49f4e5765f50dad6da1f869296de41d6eaab1b98003cb",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 380,
@@ -478,6 +478,10 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/okular-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "okular-cxx17.patch"
                 }
             ]
         },
@@ -531,6 +535,10 @@
                     "type": "archive",
                     "url": "https://sourceforge.net/projects/kile/files/unstable/kile-3.0b3/kile-2.9.93.tar.bz2",
                     "sha256": "04499212ffcb24fb3a6829149a7cae4c6ad5d795985f080800d6df72f88c5df0"
+                },
+                {
+                    "type": "patch",
+                    "path": "cxx17.patch"
                 },
                 {
                     "type": "patch",
