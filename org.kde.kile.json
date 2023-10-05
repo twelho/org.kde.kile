@@ -323,7 +323,8 @@
                 "-DBUILD_CPP_TESTS=OFF",
                 "-DENABLE_UTILS=OFF",
                 "-DENABLE_CPP=OFF",
-                "-DENABLE_GLIB=OFF"
+                "-DENABLE_GLIB=OFF",
+                "-DENABLE_QT6=OFF"
             ],
             "sources": [
                 {
