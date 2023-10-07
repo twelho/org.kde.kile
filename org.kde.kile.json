@@ -3,7 +3,7 @@
     "runtime": "org.kde.Platform",
     "runtime-version": "5.15-22.08",
     "sdk": "org.kde.Sdk",
-    "command": "kile",
+    "command": "kile.sh",
     "rename-icon": "kile",
     "finish-args": [
         "--share=ipc",
@@ -12,8 +12,7 @@
         "--socket=wayland",
         "--device=dri",
         "--filesystem=home",
-        "--talk-name=org.freedesktop.Flatpak",
-        "--env=PATH=/app/bin:/app/texlive/bin:/app/texlive/bin/x86_64-linux:/app/texlive/bin/aarch64-linux:/usr/bin/"
+        "--talk-name=org.freedesktop.Flatpak"
     ],
     "separate-locales": false,
     "add-extensions": {
@@ -568,10 +567,15 @@
                 {
                     "type": "patch",
                     "path": "appstream-metadata-fix.patch"
+                },
+                {
+                    "type": "file",
+                    "path": "kile.sh"
                 }
             ],
             "post-install": [
-                "install -d /app/texlive"
+                "install -d /app/texlive",
+                "install -Dm755 -t /app/bin/ ./kile.sh"
             ]
         }
     ]
