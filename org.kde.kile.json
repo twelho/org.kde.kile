@@ -575,7 +575,8 @@
             ],
             "post-install": [
                 "install -d /app/texlive",
-                "install -Dm755 -t /app/bin/ ./kile.sh"
+                "install -Dm755 -t /app/bin/ ./kile.sh",
+                "desktop-file-install --dir=/app/share/applications --set-key=Exec --set-value=kile.sh /${FLATPAK_DEST}/share/applications/org.kde.kile.desktop"
             ]
         }
     ]
