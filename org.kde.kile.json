@@ -1,7 +1,7 @@
 {
     "id": "org.kde.kile",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-22.08",
+    "runtime-version": "5.15-23.08",
     "sdk": "org.kde.Sdk",
     "command": "kile.sh",
     "rename-icon": "kile",
@@ -18,7 +18,7 @@
     "add-extensions": {
         "org.freedesktop.Sdk.Extension.texlive": {
             "directory": "texlive",
-            "version": "22.08"
+            "version": "23.08"
         }
     },
     "cleanup": [
@@ -60,6 +60,10 @@
                         "stable-only": true,
                         "url-template": "https://github.com/gnustep/libs-base/releases/download/base-$version/gnustep-base-1.$patch.0.tar.gz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "gnustep-libxml.patch"
                 }
             ]
         },
@@ -379,6 +383,19 @@
                         "stable-only": true,
                         "url-template": "https://github.com/Exiv2/exiv2/archive/refs/tags/v$version.tar.gz"
                     }
+                }
+            ]
+        },
+        {
+            "name": "pcre",
+            "config-opts": [
+                "--enable-unicode-properties"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "http://prdownloads.sourceforge.net/pcre/pcre-8.45.tar.bz2",
+                    "sha256": "4dae6fdcd2bb0bb6c37b5f97c33c2be954da743985369cddac3546e3218bffb8"
                 }
             ]
         },
