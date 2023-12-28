@@ -409,8 +409,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.111/portingAids/kjs-5.111.0.tar.xz",
-                    "sha256": "0f947fb59a418362ac7bde8c4183775353c31544213c4ee45c0e3d779831cf23",
+                    "url": "https://download.kde.org/stable/frameworks/5.113/portingAids/kjs-5.113.0.tar.xz",
+                    "sha256": "0b1a17faa4d7b931040b8c61b405c5356086b182c9cee8d456b6b59a9a97a040",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -430,8 +430,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.111/portingAids/khtml-5.111.0.tar.xz",
-                    "sha256": "fdbbecf23cff80b125cb2b9b7869f8a09bd371aa5e04ba83957807eb85e7577f",
+                    "url": "https://download.kde.org/stable/frameworks/5.113/portingAids/khtml-5.113.0.tar.xz",
+                    "sha256": "b806138e4159d1559eabc76cdb1450e2381031c9ff2a46c39189388479264854",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -557,8 +557,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://imagemagick.org/archive/releases/ImageMagick-7.1.1-23.tar.gz",
-                    "sha256": "bae8ab5759bac61c259ef21aafeffd6e24b19119d3714c68ce4d1d3089dbc349",
+                    "url": "https://imagemagick.org/archive/releases/ImageMagick-7.1.1-24.tar.gz",
+                    "sha256": "5dbcf30a7c45d3b067d39400d5de15993f8d312da9359440d73e4e5e7af6db69",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1372,
