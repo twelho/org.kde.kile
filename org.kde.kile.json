@@ -6,12 +6,12 @@
     "command": "kile.sh",
     "rename-icon": "kile",
     "finish-args": [
+        "--device=dri",
+        "--filesystem=home",
         "--share=ipc",
         "--socket=cups",
         "--socket=fallback-x11",
         "--socket=wayland",
-        "--device=dri",
-        "--filesystem=home",
         "--talk-name=org.freedesktop.Flatpak"
     ],
     "separate-locales": false,
