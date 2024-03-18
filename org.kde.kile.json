@@ -540,14 +540,6 @@
                     "sha256": "53c6742bd83fb095cbdc898b03fdf8e15ab680a81693ccaf9c5076b93ad1a3ca"
                 },
                 {
-                    "type": "patch",
-                    "path": "cxx17.patch"
-                },
-                {
-                    "type": "patch",
-                    "path": "appstream-metadata-fix.patch"
-                },
-                {
                     "type": "file",
                     "path": "kile.sh"
                 }
