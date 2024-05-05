@@ -334,8 +334,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://poppler.freedesktop.org/poppler-24.04.0.tar.xz",
-                    "sha256": "1e804ec565acf7126eb2e9bb3b56422ab2039f7e05863a5dfabdd1ffd1bb77a7",
+                    "url": "https://poppler.freedesktop.org/poppler-24.05.0.tar.xz",
+                    "sha256": "d8c5eb30b50285ad9f0af8c6335cc2d3b9597fca475cbc2598a5479fa379f779",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 3686,
@@ -455,8 +455,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/OpenPrinting/cups/releases/download/v2.4.7/cups-2.4.7-source.tar.gz",
-                    "sha256": "dd54228dd903526428ce7e37961afaed230ad310788141da75cebaa08362cf6c",
+                    "url": "https://github.com/OpenPrinting/cups/releases/download/v2.4.8/cups-2.4.8-source.tar.gz",
+                    "sha256": "75c326b4ba73975efcc9a25078c4b04cdb4ee333caaad0d0823dbd522c6479a0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 380,
@@ -519,8 +519,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://imagemagick.org/archive/releases/ImageMagick-7.1.1-31.tar.gz",
-                    "sha256": "63a49fdb23767db55d25fcdd3147a2e1b4f7e9c568bc5b8a4bd30f3dbc62a35d",
+                    "url": "https://imagemagick.org/archive/releases/ImageMagick-7.1.1-32.tar.gz",
+                    "sha256": "c97e957f1eb6642669e535d6917599dc417c2f4ffcb4323f313d05dd40dc0ca4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1372,
